@@ -1,0 +1,407 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("images/z12.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: #333;
+}
+
+.header12 {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #45403a;
+  text-shadow:
+    0 0 7px #ffee00,
+    0 0 10px #ffee00,
+    0 0 21px #ffee00,
+    0 0 42px #eaff63,
+    0 0 82px #eaff63,
+    0 0 92px #eaff63,
+    0 0 102px #eaff63,
+    0 0 120px #eaff63;
+}
+
+
+
+h1 {
+  margin: 0;
+}
+
+    /* Styl menu */
+    nav {
+      background-color: #333;
+      color: #ffffff;
+      padding: 30px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: #ffffff;
+      font-size: 20px;
+      text-decoration: none;
+      padding: 5px;
+
+    }
+
+
+.h1 {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  background-color: #333;
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #45403a;
+  text-shadow:
+    0 0 7px #ffee00,
+    0 0 7px #ffee00,
+    0 0 10px #ffee00,
+    0 0 20px #eaff63,
+    0 0 50px #eaff63,
+    0 0 70px #eaff63,
+    0 0 90px #eaff63,
+    0 0 100px #eaff63;
+}
+
+.nagl {
+  color: #ffffff;
+}
+
+#transbox {
+  margin: 0 auto;
+  background-color: #fff;
+  filter:alpha(opacity=50);
+  opacity: 0.8;
+  -moz-opacity:0.5;
+  text-align: center;
+  
+}
+#transbox div {
+  padding: 20px;
+  color: #000;
+  filter:alpha(opacity=100);
+  opacity: 5;
+  -moz-opacity:1;
+  
+}
+
+.tx {
+  color: #ffffff;
+  margin: 20px;
+  text-align: center;
+  background-color: #333;
+  opacity: 0.5;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tx1 {
+  opacity: 1;
+}
+
+.h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.tit {
+  text-align: center;
+  margin-bottom: 20px; /* Dostosuj odstęp między tytułem a tekstem/obrazem według potrzeb */
+}
+
+.coh2 {
+  display: flex;
+  align-items: center;
+}
+
+.txt2 {
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 20px; /* Dostosuj odstęp między tekstem a obrazem według potrzeb */
+}
+
+.image2 {
+  max-width: 100%;
+  width: 340px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+
+.h3 {
+  display: flex;
+  height: 50vh;
+  margin-top: 20px;
+}
+
+.yh3 {
+  flex: 1;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgh3 {
+  flex: 1;
+  background: url('images/11.jpg') center/cover no-repeat;
+}
+
+.txt3 {
+  color: black; /* Adjust text color as needed */
+}
+
+.h3 a {
+  text-decoration: none;
+  color: #f5f5f5;
+
+}
+
+
+.h3 button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Adjust button color as needed */
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.h3 button:hover {
+  background-color: #0056b3; /* Adjust button hover color as needed */
+}
+
+
+
+.h4 {
+  display: flex;
+  height: 40vh;/* Ustawia kontener na całą dostępną wysokość widoku */
+  align-items: center; /* Wyśrodkowanie w pionie */
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.sec4 {
+  flex: 1; /* Dzieli kontener na dwie równe części */
+  padding: 20px;
+}
+
+.sec41 {
+  background-color: #f0f0f0; /* Kolor tła dla pierwszej sekcji */
+}
+
+.sec42 {
+  background-color: #333; /* Kolor tła dla drugiej sekcji */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h4 h2, p {
+  margin-bottom: 10px;
+}
+
+.icon-h4 {
+  display: flex;
+  align-items: center;
+}
+
+.icon4 {
+  margin-right: 20px; /* Odległość między ikonami */
+  background-color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.icon4 img {
+  width: 50px; /* Dostosuj szerokość ikon do swoich wymagań */
+  height: 50px; /* Dostosuj wysokość ikon do swoich wymagań */
+}
+
+.txt-h4 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+
+.titG {
+  text-align: center;
+  margin-bottom: 0px; /* Dostosuj odstęp między tytułem a tekstem/obrazem według potrzeb */
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /*max-width: 600px; /* Dostosuj szerokość kontenera według własnych preferencji */
+  width: 100%;
+  margin: 0 auto; /* Dodane, aby wyśrodkować kontener na stronie */
+  background-color: #333;
+}
+
+.gallery-item {
+  flex: 1;
+  margin: 10px; /* Dodałem odstęp między obrazami */
+  text-align: center; /* Wyśrodkowanie tekstu (lub obrazu) wewnątrz elementu */
+}
+
+.gallery-item img {
+  max-width: 100%;
+  width: auto;
+  height: 200px;
+  display: block;
+  margin: 0 auto; /* Dodane, aby wyśrodkować obrazy wewnątrz ich kontenerów */
+
+}
+
+
+
+.h5 {
+  margin: 20px;
+}
+
+.container5 {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.title {
+  cursor: pointer;
+  padding: 15px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.content {
+  padding: 15px;
+  display: none;
+}
+
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff0000;
+}
+
+
+
+.slideshow-container {
+  position: relative;
+  background-color: #333;
+  max-width: 100%;
+  margin: auto;
+}
+.slides {
+  text-align: center;
+  display: none;
+  background-color: #333;
+}
+img {
+  width: auto;
+  height: 330px;
+}
+.dots {
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #010101;
+}
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  /*position: fixed;*/
+  /*position: relative;*/
+  bottom: 0;
+  /*width: 100%;*/
+}

@@ -1,0 +1,97 @@
+	
+	body 
+	{
+		background-image: url(images/11.jpg);
+		background-size: cover;
+
+	}
+
+    body, h1, h2, h3, p, ul, li {
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styl nagłówka */
+    header {
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header-text {
+    	background-color: #333;
+    	padding: 5px;
+    	border-radius: 10px;
+    	margin: 5px;
+    	margin-left: 35%;
+    	text-align: center;
+    	margin-right: 35%;
+    }
+
+
+    /* Styl menu */
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+    }
+
+
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px;
+    }
+
+    img {
+      border: 5px solid #333;
+    }
+
+    /* Styl opisu */
+    #opis {
+      background-color: #f9f9f9;
+      padding: 20px;
+      
+      text-align: center;
+    }
+
+    .container {
+  		display: flex;
+  		justify-content: space-between;
+  		padding: 5%;
+
+	}
+
+	.column {
+  		flex-basis: 30%; /* szerokość każdej kolumny */
+  		padding: 10px;
+  		background-color: #333;
+  		color: white;
+  		text-align: center;
+	}
+
+    /* Styl stopki */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: auto;
+      position: fixed;
+  	  bottom: 0;
+ 	  width: 100%;
+
+    }
