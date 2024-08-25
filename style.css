@@ -58,6 +58,10 @@ h1 {
 
     }
 
+    nav a:hover {
+      color: #ff45f9;
+    }
+
 
 .h1 {
   text-align: center;
