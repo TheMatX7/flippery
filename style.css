@@ -98,6 +98,27 @@ h1 {
 }
 
 
+.h151 {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: none;
+  font-size: 15px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333;
+  text-shadow:
+    0 0 7px #ffffff,
+    0 0 7px #ffffff,
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 50px #ffffff,
+    0 0 70px #ffffff,
+    0 0 90px #ffffff,
+    0 0 100px #ffffff;
+}
+
+
 .nagl {
   color: #ffffff;
 }
@@ -185,14 +206,46 @@ h1 {
   align-items: center;
 }
 
+.yh31 {
+  flex: 1;
+  background-color: #c3c3c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+
 .imgh3 {
   flex: 1;
   background: url('images/11.jpg') center/cover no-repeat;
 }
 
+.imgh31 {
+  flex: 1;
+  text-align:start;
+  background-color: #333;
+  padding-top: 40px;
+  color: white;
+}
+
+.imgh31 li {
+  margin-top: 15vh;
+  margin: auto;
+  padding-right: auto;
+}
+
+.margin li {
+  margin-bottom: 15vh;
+}
+
 .txt3 {
   color: black; /* Adjust text color as needed */
   padding: 0px;
+}
+
+.txt31 {
+  color: black; /* Adjust text color as needed */
+  padding: auto;
 }
 
 .h3 a {
