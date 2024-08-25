@@ -382,7 +382,6 @@ body {
   .slideshow-container {
     position: relative;
     background-color: #333;
-    max-width: 100%;
     margin: auto;
   }
   .slides {
