@@ -255,6 +255,58 @@ h1 {
 }
 
 
+/* Styl ramki kontaktowej */
+.contact-box {
+  width: auto;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Styl nagłówka kontaktu */
+.contact-box h2 {
+  margin-top: 0;
+  color: #333;
+  font-size: 24px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Styl dla linków */
+.contact-box a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-box a:hover {
+  text-decoration: underline;
+}
+
+/* Styl informacji kontaktowych */
+.contact-info {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+/* Responsywność dla mniejszych ekranów */
+@media (max-width: 400px) {
+  .contact-box {
+      width: 90%;
+      margin: 20px auto;
+  }
+}
+
+
 .h3 button {
   margin-top: 20px;
   padding: 10px 20px;
