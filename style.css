@@ -66,17 +66,37 @@ h1 {
   background-color: #333;
   font-size: 25px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #45403a;
+  color: #ffffff;
   text-shadow:
-    0 0 7px #ffee00,
-    0 0 7px #ffee00,
-    0 0 10px #ffee00,
-    0 0 20px #eaff63,
-    0 0 50px #eaff63,
-    0 0 70px #eaff63,
-    0 0 90px #eaff63,
-    0 0 100px #eaff63;
+    0 0 7px #402eff,
+    0 0 7px #402eff,
+    0 0 10px #402eff,
+    0 0 20px #402eff,
+    0 0 50px #402eff,
+    0 0 70px #402eff,
+    0 0 90px #402eff,
+    0 0 100px #402eff;
 }
+
+.h15 {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
+  background-color: none;
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+  text-shadow:
+    0 0 7px #402eff,
+    0 0 7px #402eff,
+    0 0 10px #402eff,
+    0 0 20px #402eff,
+    0 0 50px #402eff,
+    0 0 70px #402eff,
+    0 0 90px #402eff,
+    0 0 100px #402eff;
+}
+
 
 .nagl {
   color: #ffffff;
@@ -153,13 +173,13 @@ h1 {
 
 .h3 {
   display: flex;
-  height: 50vh;
+  height: 60vh;
   margin-top: 20px;
 }
 
 .yh3 {
   flex: 1;
-  background-color: yellow;
+  background-color: #3e8fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,6 +192,7 @@ h1 {
 
 .txt3 {
   color: black; /* Adjust text color as needed */
+  padding: 0px;
 }
 
 .h3 a {
@@ -202,18 +223,21 @@ h1 {
   display: flex;
   height: 40vh;/* Ustawia kontener na całą dostępną wysokość widoku */
   align-items: center; /* Wyśrodkowanie w pionie */
-  margin-bottom: 50px;
   margin-top: 20px;
 }
 
 .sec4 {
   flex: 1; /* Dzieli kontener na dwie równe części */
   padding: 20px;
+  height: 350px;
 }
 
 .sec41 {
   background-color: #f0f0f0; /* Kolor tła dla pierwszej sekcji */
+  font-size: 20px;
 }
+
+
 
 .sec42 {
   background-color: #333; /* Kolor tła dla drugiej sekcji */
@@ -236,7 +260,7 @@ h1 {
   margin-right: 20px; /* Odległość między ikonami */
   background-color: white;
   padding: 10px;
-  border-radius: 50%;
+  border-radius: 100%;
   margin-bottom: 10px;
 }
 
@@ -249,6 +273,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  color: white;
 }
 
 
@@ -372,11 +397,13 @@ h1 {
 img {
   width: auto;
   height: 330px;
+  margin-top: 10px;
 }
 .dots {
   text-align: center;
   background-color: #333;
   padding: 10px;
+
 }
 .dot {
   height: 15px;
