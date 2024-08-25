@@ -173,7 +173,7 @@ h1 {
 
 .h3 {
   display: flex;
-  height: 60vh;
+  height: auto;
   margin-top: 20px;
 }
 
@@ -221,15 +221,16 @@ h1 {
 
 .h4 {
   display: flex;
-  height: 40vh;/* Ustawia kontener na całą dostępną wysokość widoku */
+  height: auto;/* Ustawia kontener na całą dostępną wysokość widoku */
   align-items: center; /* Wyśrodkowanie w pionie */
   margin-top: 20px;
+  background-color: white;
 }
 
 .sec4 {
   flex: 1; /* Dzieli kontener na dwie równe części */
   padding: 20px;
-  height: 350px;
+  height: auto;
 }
 
 .sec41 {
