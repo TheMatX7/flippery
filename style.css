@@ -231,6 +231,7 @@ h1 {
   flex: 1; /* Dzieli kontener na dwie równe części */
   padding: 20px;
   height: auto;
+  width: 50%;
 }
 
 .sec41 {
