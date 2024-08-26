@@ -57,6 +57,19 @@ body {
         padding: 5px;
   
       }
+
+      nav button {
+        border: white 10px;
+        border-radius: 50px;
+        font-family: fantasy;
+        padding: 20px;
+        font-size: 20px;
+      }
+
+      nav button:hover {
+        color: #ff38ca;
+        background-color: #addeff;
+      }
   
   
   .h1 {
